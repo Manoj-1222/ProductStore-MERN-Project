@@ -1,5 +1,5 @@
-// const express = require('express')
-import express from "express";
+const express = require('express')
+// import express from "express";
 import dotenv from "dotenv";
 import path from "path";
 import { connectDB } from "./config/db.js";
