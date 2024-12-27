@@ -1,10 +1,10 @@
-// import express from "express";
-// import dotenv from "dotenv";
-// import path from "path";
+import express from "express";
+import dotenv from "dotenv";
+import path from "path";
 
-const express = require('express')
-const dotenv = require('dotenv')
-const path = require('path')
+// const express = require('express')
+// const dotenv = require('dotenv')
+// const path = require('path')
 import { connectDB } from "./config/db.js";
 import productRoutes from "./routes/product.route.js";
 
